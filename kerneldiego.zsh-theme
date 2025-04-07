@@ -1,4 +1,5 @@
-# kerneldiego
+# author: https://github.com/KernelDiego
+# repo: https://github.com/KernelDiego/kerneldiego-zsh-theme
 
 RESET="%f"
 BLUE="%{$fg[blue]%}"
