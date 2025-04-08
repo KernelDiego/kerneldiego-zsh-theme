@@ -72,15 +72,18 @@ git_info() {
   branch="$(git_current_branch)"
   [[ -n $branch ]] && parts+=("${RED}${branch}${RESET}")
 
-  sha="$(git_short_sha)"
-  [[ -n $sha ]] && parts+=("${BLUE}${sha}${RESET}")
+  if git rev-parse --verify HEAD >/dev/null 2>&1; then
+    sha="$(git_short_sha)"
+    [[ -n $sha ]] && parts+=("${BLUE}${sha}${RESET}")
+  else
+    parts+=("${YELLOW}(no commits)${RESET}")
+  fi
 
   summary="$(git_diff_summary)"
   [[ -n $summary ]] && parts+=("$summary")
 
   [[ ${#parts[@]} -gt 0 ]] && echo "${OPEN}$(printf "%s " "${parts[@]}" | sed 's/ $//')${CLOSE}"
 }
-
 
 name() {
 	echo "${OPEN}${MAGENTA}%n${CLOSE}${RESET}"
