@@ -63,13 +63,24 @@ git_diff_summary() {
 }
 
 git_info() {
-  if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
-    local branch="${RED}$(git_current_branch)${RESET}"
-    local sha="${BLUE}$(git_short_sha)${RESET}"
-    local summary="$(git_diff_summary)"
-    echo "${OPEN}${branch} ${sha} ${summary}${CLOSE}"
+  if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+    return
   fi
+
+  local branch sha summary parts=()
+
+  branch="$(git_current_branch)"
+  [[ -n $branch ]] && parts+=("${RED}${branch}${RESET}")
+
+  sha="$(git_short_sha)"
+  [[ -n $sha ]] && parts+=("${BLUE}${sha}${RESET}")
+
+  summary="$(git_diff_summary)"
+  [[ -n $summary ]] && parts+=("$summary")
+
+  [[ ${#parts[@]} -gt 0 ]] && echo "${OPEN}$(printf "%s " "${parts[@]}" | sed 's/ $//')${CLOSE}"
 }
+
 
 name() {
 	echo "${OPEN}${MAGENTA}%n${CLOSE}${RESET}"
