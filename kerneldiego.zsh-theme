@@ -82,7 +82,7 @@ git_info() {
   summary="$(git_diff_summary)"
   [[ -n $summary ]] && parts+=("$summary")
 
-  [[ ${#parts[@]} -gt 0 ]] && echo "${OPEN}$(printf "%s " "${parts[@]}" | sed 's/ $//')${CLOSE}"
+  [[ ${#parts[@]} -gt 0 ]] && echo "${HBAR}${OPEN}$(printf "%s " "${parts[@]}" | sed 's/ $//')${CLOSE}"
 }
 
 name() {
@@ -90,9 +90,9 @@ name() {
 }
 
 dir() {
-	echo "${OPEN}${YELLOW}%~${CLOSE}${RESET}"
+	echo "${HBAR}${OPEN}${YELLOW}%~${CLOSE}${RESET}"
 }
 
-PROMPT='${CYAN}${CORNER_UL}$(name)${HBAR}$(dir)${HBAR}$(git_info)
+PROMPT='${CYAN}${CORNER_UL}$(name)$(dir)$(git_info)
 ${CORNER_LL}${FLICK}${RESET} '
 
