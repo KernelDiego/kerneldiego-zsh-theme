@@ -15,6 +15,17 @@ A minimal and informative Zsh theme with a clean box-style layout, Git integrati
 - Custom symbols with color-coded segments.
 - Lightweight and fast — no external dependencies.
 
+## 🧩 Git Diff Symbols
+
+>These are displayed dynamically in the second prompt line when inside a Git repository.
+
+- +A —> Added files (green)
+- ~M —> Modified files (yellow)
+- -D —> Deleted files (red)
+- R —> Renamed files (blue)
+- U —> Unmerged files (magenta)
+- ? —> Untracked files (cyan)
+
 ---
 
 ## 📦 Installation
