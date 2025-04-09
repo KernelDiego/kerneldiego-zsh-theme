@@ -63,3 +63,9 @@ A minimal and informative Zsh theme with a clean box-style layout, Git integrati
    ```shell
    source ~/.zshrc
    ```
+
+---
+
+## 🙏 Credits 
+
+Made with ❤️ by [KernelDiego](https://github.com/KernelDiego/)
