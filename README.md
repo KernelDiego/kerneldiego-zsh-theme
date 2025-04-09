@@ -5,6 +5,7 @@ A minimal and informative Zsh theme with a clean box-style layout, Git integrati
 ## 🌄 Preview
 
 ![screenshot](./media/screenshot.png)
+![Demo](./media/recording.gif)
 
 ## ✨ Features
 
