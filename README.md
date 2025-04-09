@@ -67,6 +67,12 @@ A minimal and informative Zsh theme with a clean box-style layout, Git integrati
 
 ---
 
+## 🔤 Font Recommendation
+
+To properly render the prompt symbols, use a [Nerd Font](https://www.nerdfonts.com/), e.g., FiraCode Nerd Font or Hack Nerd Font, etc.
+
+---
+
 ## Colors used
 
 > To make your terminal look exactly like the screenshots, you can manually configure your terminal emulator with the HEX color values provided below. These colors are used in the theme's prompt styling, so setting them in your terminal ensures full visual consistency.
