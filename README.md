@@ -79,12 +79,12 @@ To properly render the prompt symbols, use a [Nerd Font](https://www.nerdfonts.c
 
 | Color   | HEX       | Preview |
 |---------|-----------|---------|
-| <span style="color:#FF2EC8">Magenta</span> | <span style="background-color:#FF2EC8; color:#000; padding:2px 6px; border-radius:4px;">#FF2EC8</span> | <div style="text-align:center;"><span style="display:inline-block; width:20px; height:20px; background-color:#FF2EC8; border:1px solid #ccc; border-radius:4px;"></span></div> |
-| <span style="color:#00F0FF">Cyan</span>    | <span style="background-color:#00F0FF; color:#000; padding:2px 6px; border-radius:4px;">#00F0FF</span> | <div style="text-align:center;"><span style="display:inline-block; width:20px; height:20px; background-color:#00F0FF; border:1px solid #ccc; border-radius:4px;"></span></div> |
-| <span style="color:#339CFF">Blue</span>    | <span style="background-color:#339CFF; color:#000; padding:2px 6px; border-radius:4px;">#339CFF</span> | <div style="text-align:center;"><span style="display:inline-block; width:20px; height:20px; background-color:#339CFF; border:1px solid #ccc; border-radius:4px;"></span></div> |
-| <span style="color:#FF4B4B">Red</span>     | <span style="background-color:#FF4B4B; color:#000; padding:2px 6px; border-radius:4px;">#FF4B4B</span> | <div style="text-align:center;"><span style="display:inline-block; width:20px; height:20px; background-color:#FF4B4B; border:1px solid #ccc; border-radius:4px;"></span></div> |
-| <span style="color:#3EFFA8">Green</span>   | <span style="background-color:#3EFFA8; color:#000; padding:2px 6px; border-radius:4px;">#3EFFA8</span> | <div style="text-align:center;"><span style="display:inline-block; width:20px; height:20px; background-color:#3EFFA8; border:1px solid #ccc; border-radius:4px;"></span></div> |
-| <span style="color:#FFB700">Yellow</span>  | <span style="background-color:#FFB700; color:#000; padding:2px 6px; border-radius:4px;">#FFB700</span> | <div style="text-align:center;"><span style="display:inline-block; width:20px; height:20px; background-color:#FFB700; border:1px solid #ccc; border-radius:4px;"></span></div> |
+| Magenta | `#FF2EC8` | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![#FF2EC8](https://placehold.co/15x15/FF2EC8/FF2EC8)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Cyan    | `#00F0FF` | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![#00F0FF](https://placehold.co/15x15/00F0FF/00F0FF)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Blue    | `#339CFF` | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![#339CFF](https://placehold.co/15x15/339CFF/339CFF)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Red     | `#FF4B4B` | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![#FF4B4B](https://placehold.co/15x15/FF4B4B/FF4B4B)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Green   | `#3EFFA8` | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![#3EFFA8](https://placehold.co/15x15/3EFFA8/3EFFA8)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Yellow  | `#FFB700` | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![#FFB700](https://placehold.co/15x15/FFB700/FFB700)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 
 ---
 
